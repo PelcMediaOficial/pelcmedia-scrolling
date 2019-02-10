@@ -6,65 +6,35 @@ PelcMedia-Scrolling es una página web simple con secciones hecha con [Bootstrap
 
 Pronto 
 
-## Status
-
-[![GitHub license](https://github.com/PelcMediaOficial/pelcmedia-scrolling/blob/master/LICENSE)](https://github.com/PelcMediaOficial/pelcmedia-scrolling/blob/master/LICENSE)
-[![dependencies Status](https://github.com/PelcMediaOficial/pelcmedia-scrolling/status.svg)](https://github.com/PelcMediaOficial/pelcmedia-scrolling)
-[![devDependencies Status](https://github.com/PelcMediaOficial/pelcmedia-scrolling/dev-status.svg)](https://github.com/PelcMediaOficial/pelcmedia-scrolling?type=dev)
-
 ## Descarga e Instalación
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
-* Install via npm: `npm i startbootstrap-agency`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
+Para comenzar a usar esta plantilla, elija una de las siguientes opciones para comenzar:
+* [Descarga la última versión de Pelcmedia-Scrolling](https://github.com/PelcMediaOficial/pelcmedia-scrolling)
+* Clonar el repositorio: `git clone https://github.com/PelcMediaOficial/pelcmedia-scrolling.git`
+* [Fork, Clone, o Descarga en GitHub](https://github.com/PelcMediaOficial/pelcmedia-scrolling)
 
-## Usage
+## Uso
 
-### Basic Usage
+### Uso Básico
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+Después de la descarga, simplemente edite los archivos HTML y CSS incluidos con la plantilla en su editor de texto favorito para realizar cambios.
+Estos son los únicos archivos de los que debe preocuparse, ¡puede ignorar todo lo demás! Para obtener una vista previa de los cambios que realice en el código, puede abrir el archivo `index.html` en su navegador web.
 
-### Advanced Usage
+### Uso Avanzádo
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+Después de la instalación, use cmd para ir a la carpeta raíz y ejecute `npm install` y luego ejecute `gulp dev` que abrirá una vista previa de la plantilla en su navegador predeterminado, observe los cambios en los archivos de la plantilla principal y vuelva a cargar el navegador en vivo cuando se guarden los cambios. Puedes ver el `gulpfile.js` para ver qué tareas están incluidas con el entorno dev.
 
 #### Gulp Tasks
 
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+- `gulp` La tarea por defecto que construye todo.
+- `gulp dev` browserSync abre el proyecto en su navegador predeterminado y las recargas en vivo cuando se realizan cambios
+- `gulp css` compila archivos SCSS en CSS y minimiza el CSS compilado
+- `gulp js` minimiza los temas del archivo JS
+- `gulp vendor` Copia dependencias de node_modules al directorio del proveedor. (Librerias en su mayoria)
 
-You must have npm and Gulp installed globally on your machine in order to use these features.
+Debe tener npm y Gulp instalados globalmente en su máquina para poder utilizar estas funciones.
 
-## Troubleshooting and Help
+## Errores y problemas
 
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+¿Tienes un error o un problema con esta plantilla? [Open new issues](https://github.com/PelcMediaOficial/pelcmedia-scrolling/issues) aquí en GitHub
 
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
