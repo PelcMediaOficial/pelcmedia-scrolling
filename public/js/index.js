@@ -70,6 +70,7 @@
   // add a marker in the given location
   L.marker(center).addTo(map);
 
+
 })(jQuery); // End of use strict
 
 
