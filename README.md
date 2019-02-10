@@ -9,9 +9,8 @@ Pronto
 ## Descarga e Instalación
 
 Para comenzar a usar esta plantilla, elija una de las siguientes opciones para comenzar:
-* [Descarga la última versión de Pelcmedia-Scrolling](https://github.com/PelcMediaOficial/pelcmedia-scrolling)
+* [Descarga la última versión de Pelcmedia-Scrolling](https://github.com/PelcMediaOficial/pelcmedia-scrolling/archive/master.zip)
 * Clonar el repositorio: `git clone https://github.com/PelcMediaOficial/pelcmedia-scrolling.git`
-* [Fork, Clone, o Descarga en GitHub](https://github.com/PelcMediaOficial/pelcmedia-scrolling)
 
 ## Uso
 
