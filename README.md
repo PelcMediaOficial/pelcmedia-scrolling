@@ -1,22 +1,18 @@
 # pelcmedia-scrolling
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+PelcMedia-Scrolling es una página web simple con secciones hecha con [Bootstrap](http://getbootstrap.com/) creado por [PelcMedia](http://pelcmedia.cl/).
 
-## Preview
+## Vista Previa
 
-[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+Pronto 
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
+[![GitHub license](https://github.com/PelcMediaOficial/pelcmedia-scrolling/blob/master/LICENSE)](https://github.com/PelcMediaOficial/pelcmedia-scrolling/blob/master/LICENSE)
+[![dependencies Status](https://github.com/PelcMediaOficial/pelcmedia-scrolling/status.svg)](https://github.com/PelcMediaOficial/pelcmedia-scrolling)
+[![devDependencies Status](https://github.com/PelcMediaOficial/pelcmedia-scrolling/dev-status.svg)](https://github.com/PelcMediaOficial/pelcmedia-scrolling?type=dev)
 
-## Download and Installation
+## Descarga e Instalación
 
 To begin using this template, choose one of the following options to get started:
 * [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
