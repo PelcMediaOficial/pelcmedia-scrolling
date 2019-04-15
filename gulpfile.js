@@ -24,7 +24,7 @@ gulp.task('vendor', function() {
    gulp.src([
     './node_modules/holderjs/**/*'    
   ])
-  .pipe(gulp.dest('./public/vendor/holderjs'))
+  .pipe(gulp.dest('./vendor/holderjs'))
 
   // Bootstrap
   gulp.src([
@@ -32,38 +32,38 @@ gulp.task('vendor', function() {
       '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
       '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
     ])
-    .pipe(gulp.dest('./public/vendor/bootstrap'))
+    .pipe(gulp.dest('./vendor/bootstrap'))
 
   // Font Awesome
   gulp.src([
       './node_modules/@fortawesome/**/*',
     ])
-    .pipe(gulp.dest('./public/vendor'))
+    .pipe(gulp.dest('./vendor'))
 
   // jQuery
   gulp.src([
       './node_modules/jquery/dist/*',
       '!./node_modules/jquery/dist/core.js'
     ])
-    .pipe(gulp.dest('./public/vendor/jquery'))
+    .pipe(gulp.dest('./vendor/jquery'))
 
   // jQuery Easing
   gulp.src([
       './node_modules/jquery.easing/*.js'
     ])
-    .pipe(gulp.dest('./public/vendor/jquery-easing'))
+    .pipe(gulp.dest('./vendor/jquery-easing'))
 
   // Magnific Popup
   gulp.src([
       './node_modules/magnific-popup/dist/*'
     ])
-    .pipe(gulp.dest('./public/vendor/magnific-popup'))
+    .pipe(gulp.dest('./vendor/magnific-popup'))
 
   // Scrollreveal
   gulp.src([
       './node_modules/scrollreveal/dist/*.js'
     ])
-    .pipe(gulp.dest('./public/vendor/scrollreveal'))
+    .pipe(gulp.dest('./vendor/scrollreveal'))
 
 });
 
@@ -80,20 +80,20 @@ gulp.task('css:compile', function() {
     .pipe(header(banner, {
       pkg: pkg
     }))
-    .pipe(gulp.dest('./public/css'))
+    .pipe(gulp.dest('./css'))
 });
 
 // Minify CSS
 gulp.task('css:minify', ['css:compile'], function() {
   return gulp.src([
-      './public/css/*.css',
-      '!./public/css/*.min.css'
+      './css/*.css',
+      '!./css/*.min.css'
     ])
     .pipe(cleanCSS())
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./public/css'))
+    .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream());
 });
 
@@ -103,8 +103,8 @@ gulp.task('css', ['css:compile', 'css:minify']);
 // Minify JavaScript
 gulp.task('js:minify', function() {
   return gulp.src([
-      './public/js/*.js',
-      '!./public/js/*.min.js'
+      './js/*.js',
+      '!./js/*.min.js'
     ])
     .pipe(uglify())
     .pipe(rename({
@@ -113,7 +113,7 @@ gulp.task('js:minify', function() {
     .pipe(header(banner, {
       pkg: pkg
     }))
-    .pipe(gulp.dest('./public/js'))
+    .pipe(gulp.dest('./js'))
     .pipe(browserSync.stream());
 });
 
@@ -127,7 +127,7 @@ gulp.task('default', ['css', 'js', 'vendor']);
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
-      baseDir: "./public"
+      baseDir: "."
     }
   });
 });
@@ -135,6 +135,6 @@ gulp.task('browserSync', function() {
 // Dev task
 gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
-  gulp.watch('./public/js/*.js', ['js']);
-  gulp.watch('./public/*.html', browserSync.reload);
+  gulp.watch('./js/*.js', ['js']);
+  gulp.watch('./*.html', browserSync.reload);
 });
