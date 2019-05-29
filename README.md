@@ -4,7 +4,7 @@ PelcMedia-Scrolling es una página web simple con secciones hecha con [Bootstrap
 
 ## Vista Previa
 
-[PelcMedia-Scrolling preview](https://scrolling.pelcmedia.cl/)
+[PelcMedia-Scrolling preview](https://pelcmediaoficial.github.io/pelcmedia-scrolling/)
 
 ## Descarga e Instalación
 
