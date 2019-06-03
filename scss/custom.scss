@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Marck+Script');
 
 body{
-    background-color:$body-bgColor;
+    background-color:darken($primary,75%);
     background-image: url('../img/desktop/background.png');
     background-position: center;
     background-size: cover;
@@ -12,18 +12,15 @@ body{
 }
 
 .text-style{
-  font-family: $font-style;
+  font-family: $font-style;/*s*/
 }
 
-.bg-smoke{
-  background-color:$whiteSmoke !important;
-}
 
 header {
   padding: 154px 0 100px;
   min-height: 100vh;   
   text-shadow: 2px 2px 4px #000000;
-  background-color: rgba( $primary, .7 );    
+  background-color: rgba($dark,0.7);    
 }
   
 @media (max-width: 992px) {

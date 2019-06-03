@@ -28,11 +28,16 @@ gulp.task('vendor', function() {
 
   // Bootstrap
   gulp.src([
-      './node_modules/bootstrap/dist/**/*',
+      './node_modules/bootstrap/dist/**/*',      
       '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
       '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
     ])
     .pipe(gulp.dest('./vendor/bootstrap'))
+
+    gulp.src([
+      './node_modules/bootstrap/scss/**/*'      
+    ])
+    .pipe(gulp.dest('./vendor/bootstrap/scss'))
 
   // Font Awesome
   gulp.src([
